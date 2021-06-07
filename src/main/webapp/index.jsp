@@ -15,7 +15,7 @@
 	
 	
 %>
-hello world
+<h1>hello world</h1>
 board title: <%= board1.getTitle() %>
 abcdfjkdsl
 </body>
