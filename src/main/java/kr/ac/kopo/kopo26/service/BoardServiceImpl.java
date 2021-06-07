@@ -1,22 +1,24 @@
-package kr.ac.kopo.kopo01.dao;
+package kr.ac.kopo.kopo26.service;
 
 import java.util.List;
 
-import kr.ac.kopo.kopo01.domain.Board;
+import kr.ac.kopo.kopo26.dao.BoardDao;
+import kr.ac.kopo.kopo26.dao.BoardDaoImpl;
+import kr.ac.kopo.kopo26.domain.Board;
 
-public class BoardDaoImpl implements BoardDao {
-
+public class BoardServiceImpl implements BoardService {
+	
+	private BoardDao boardDao = new BoardDaoImpl();
+	
 	@Override
 	public void create(Board board) {
+		boardDao.create(board);
 		
 	}
 
 	@Override
 	public Board selectOne(int id) {
-		Board board = new Board();
-		board.setId(1);
-		board.setTitle("abcddddddddd");
-		return board;
+		return boardDao.selectOne(id);
 	}
 
 	@Override

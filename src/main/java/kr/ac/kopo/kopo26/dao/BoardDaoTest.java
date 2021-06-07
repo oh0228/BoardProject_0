@@ -1,6 +1,6 @@
-package kr.ac.kopo.kopo01.dao;
+package kr.ac.kopo.kopo26.dao;
 
-import kr.ac.kopo.kopo01.domain.Board;
+import kr.ac.kopo.kopo26.domain.Board;
 
 public class BoardDaoTest {
 	public static void main(String[] args) {

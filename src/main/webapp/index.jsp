@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<%@ page import="kr.ac.kopo.kopo01.domain.*" %>
-<%@ page import="kr.ac.kopo.kopo01.service.*" %>
+<%@ page import="kr.ac.kopo.kopo26.domain.*" %>
+<%@ page import="kr.ac.kopo.kopo26.service.*" %>
 <!DOCTYPE html>
 <html>
 <head>

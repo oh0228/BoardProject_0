@@ -1,9 +1,8 @@
-package kr.ac.kopo.kopo01.domain;
+package kr.ac.kopo.kopo26.domain;
 
-public class BoardItem {
+public class Board {
 	private int id;
 	private String title;
-	private String content;
 	public int getId() {
 		return id;
 	}
@@ -16,11 +15,6 @@ public class BoardItem {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public String getContent() {
-		return content;
-	}
-	public void setContent(String content) {
-		this.content = content;
-	}
-
+	
+	
 }

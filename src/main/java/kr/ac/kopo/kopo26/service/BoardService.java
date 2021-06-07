@@ -1,10 +1,10 @@
-package kr.ac.kopo.kopo01.dao;
+package kr.ac.kopo.kopo26.service;
 
 import java.util.List;
 
-import kr.ac.kopo.kopo01.domain.Board;
+import kr.ac.kopo.kopo26.domain.Board;
 
-public interface BoardDao {
+public interface BoardService {
 	void create(Board board);
 	Board selectOne(int id);
 	List<Board> selectAll();

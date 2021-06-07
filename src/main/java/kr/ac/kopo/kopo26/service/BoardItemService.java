@@ -1,9 +1,9 @@
-package kr.ac.kopo.kopo01.service;
+package kr.ac.kopo.kopo26.service;
 
 import java.util.List;
 
-import kr.ac.kopo.kopo01.domain.Board;
-import kr.ac.kopo.kopo01.domain.BoardItem;
+import kr.ac.kopo.kopo26.domain.Board;
+import kr.ac.kopo.kopo26.domain.BoardItem;
 
 public interface BoardItemService {
 	void create(BoardItem boardItem);
